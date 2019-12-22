@@ -3,6 +3,8 @@ body {
     text-align: center;
 }
 
+/* HEADER */
+
 #bgimage {
     background-image: url(images/bg-drone1.jpg);
     max-height: 500px;
@@ -12,7 +14,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 10px 0;
-    padding-top: 200px;
+    padding-top: 100px;
     
 }
 
@@ -20,4 +22,25 @@ body {
     border-radius: 50%;
     width: 200px;
     height: 200px;
+}
+
+#colorfilter {
+    background: rgba(255, 255, 255, 0.4);
+    padding: 30px 0px;
+    border-radius: 5%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#colorfilter h1 {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+#colorfilter p {
+    text-transform: uppercase;
+    margin-top: -10px;
+    font-weight: 600;
+    font-size: 20px;
 }
