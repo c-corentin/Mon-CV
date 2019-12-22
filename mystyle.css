@@ -110,6 +110,14 @@ main article {
     margin-top: 60px;
 }
 
+.fa {
+    font-size: 30px;
+    margin: 0 5px;
+}
+
+a {
+    color: #266BAC;
+
 @media screen and (max-width: 800px) {
 
     .rightbox {
