@@ -33,6 +33,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: fit-content;
+    max-width: 460px;
 }
 
 #colorfilter h1 {
