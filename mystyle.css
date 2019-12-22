@@ -29,7 +29,7 @@ body {
 #colorfilter {
     background: rgba(255, 255, 255, 0.4);
     padding: 30px 40px;
-    border-radius: 40px;
+    border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
     max-width: 460px;
@@ -48,26 +48,64 @@ body {
     font-size: 20px;
 }
 
-/* ABOUT */
+/* MAIN */
 
-#about {/*
-    display: -webkit-flex;
-    -webkit-flex-wrap: wrap;
-    display: flex;
-    */
+main {
+    padding: 20px;
+}
+
+#about {
     display: flex;
     flex-wrap: wrap;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
     text-align: left;
     max-width: 1000px;
     box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
     margin: 60px auto;
-    padding: 15px 15px;
+    border-radius: 10px;
+}
+
+main article {
+    display: flex;
+    flex-wrap: wrap;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    text-align: left;
+    max-width: 1000px;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+    margin: 35px auto;
+    border-radius: 10px;
 }
 
 #aboutme, #info {
+    max-width: 400px;
     padding: 15px;
 }
 
 #info td {
     padding: 5px 10px;
+    padding-left: 0px;
+}
+
+.leftbox {
+    width: 150px;
+    max-width: 150px;
+    text-align: center;
+    color: white;
+    background-color: #266BAC;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: auto auto;
+}
+
+.rightbox {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.outsec {
+    margin-top: 60px;
 }
