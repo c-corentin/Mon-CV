@@ -1,4 +1,23 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    align-content: center;
+    text-align: center;
+}
+
+#bgimage {
+    background-image: url(images/bg-drone1.jpg);
+    max-height: 500px;
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 0;
+    padding-top: 200px;
+    
+}
+
+#bgimage img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
 }
