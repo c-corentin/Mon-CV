@@ -15,22 +15,25 @@ body {
     background-size: cover;
     padding: 10px 0;
     padding-top: 100px;
-    
+
 }
 
 #bgimage img {
     border-radius: 50%;
+    border: 1px solid #838383;
     width: 200px;
     height: 200px;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
 }
 
 #colorfilter {
     background: rgba(255, 255, 255, 0.4);
-    padding: 30px 0px;
+    padding: 30px 40px;
     border-radius: 40px;
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
+    width: fit-content;
 }
 
 #colorfilter h1 {
