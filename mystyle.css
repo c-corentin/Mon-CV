@@ -47,3 +47,27 @@ body {
     font-weight: 600;
     font-size: 20px;
 }
+
+/* ABOUT */
+
+#about {/*
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    */
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    max-width: 1000px;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+    margin: 60px auto;
+    padding: 15px 15px;
+}
+
+#aboutme, #info {
+    padding: 15px;
+}
+
+#info td {
+    padding: 5px 10px;
+}
