@@ -65,7 +65,7 @@ main article {
     flex-wrap: wrap;
     display: -webkit-flex;
     -webkit-flex-wrap: wrap;
-    text-align: left;
+    text-align: justify;
     max-width: 1000px;
     box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
     margin: 60px auto;
@@ -85,7 +85,12 @@ main article {
     border-radius: 10px;
 }
 
-#aboutme, #info {
+h2 {
+    font-size: xx-large;
+}
+
+#aboutme,
+#info {
     max-width: 400px;
     padding: 15px;
 }
@@ -107,35 +112,44 @@ main article {
     padding: auto auto;
 }
 
+
 .rightbox {
     max-width: 750px;
     margin: 0 auto;
     padding: 15px;
+    text-align: justify;
 }
 
 .outsec {
     margin-top: 60px;
 }
+
 /* FOOTER */
 
 footer {
     background-color: #fafafa;
+    margin-bottom: 60px;
 }
 
 .fa {
-    font-size: 30px;
+    font-size: 50px;
     margin: 10px 5px;
     margin-bottom: 50px;
-    position: absolute;
 }
 
 footer a {
     color: #266BAC;
 }
 
-footer .fa:hover {
+footer span:hover {
     font-size: 35px;
 }
+
+footer p {
+    display: inline;
+}
+
+/* MEDIA QUERIES */
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 800px) {
 
@@ -153,17 +167,19 @@ footer .fa:hover {
         justify-content: center;
         align-items: center;
     }
-    
-    #aboutme, #info {
+
+    #aboutme,
+    #info {
         max-width: 1000px;
     }
 
-    #info  table{
+    #info table {
         text-align: left;
     }
 
     main article {
-        display: inline-block;/*
+        display: inline-block;
+        /*
         flex-wrap: wrap;
         display: -webkit-flex;
         -webkit-flex-wrap: wrap;*/
@@ -191,5 +207,4 @@ footer .fa:hover {
         display: inline;
         width: 80%;
     }
-  }
-
+}
