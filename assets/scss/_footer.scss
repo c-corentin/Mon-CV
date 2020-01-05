@@ -1,0 +1,27 @@
+footer {
+    background-color: #fafafa;
+    margin-bottom: 60px;
+
+    .fa {
+        transition-duration: 0.7s;
+    }
+
+    .fa {
+        font-size: 40px;
+        margin: 10px 5px;
+        margin-bottom: 50px;
+    }
+
+    a {
+        color: #266BAC;
+    }
+
+    p {
+        display: inline;
+    }
+}
+
+.fa:hover  {
+    color: rgb(22, 66, 107);
+    transition-duration: 0.7s;
+}

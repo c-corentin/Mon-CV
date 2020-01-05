@@ -1,8 +1,88 @@
 @import 'header';
+@import 'footer';
 
-body{
+$body_bg_color: #fafafa;
+$Lbox_bg_color: #266BAC;
+$Rbox_bg_color: white;
+$boxtxt_align: left;
+
+body {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    background-color: #fafafa;
-}
+    background-color: $body_bg_color;
+    
+    main {
+        padding: 20px;
+        background-color: $body_bg_color;
+        overflow:hidden;
 
+        #about {
+            text-align: center;
+            box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+            margin: 60px auto;
+            border-radius: 10px;
+            background-color: white;
+
+            #aboutme,
+            #info {
+                max-width: 400px;
+                padding: 15px;
+                margin: auto;
+            }
+
+            #aboutme {
+                text-align: justify;
+
+                h2 {
+                    text-align: center;
+                }
+            }
+
+            #info td {
+                padding: 5px 10px;
+                padding-left: 0px;
+                text-align: $boxtxt_align;
+            }
+        }
+
+        h2 {
+            font-size: xx-large;
+        }
+
+        h3 {
+            font-size: x-large;
+        }
+
+        article {
+            text-align: $boxtxt_align;
+            box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+            margin: 35px auto;
+            border-radius: 10px;
+            overflow: hidden;
+
+            .leftbox {
+                text-align: center;
+                color: white;
+                background-color: $Lbox_bg_color;
+                padding: 15px;
+                padding: auto auto;
+            }
+            
+            
+            .rightbox {
+                max-width: 750px;
+                margin: 0 auto;
+                padding: 15px;
+                text-align: justify;
+
+                h3 {
+                    font-size: large;
+                }
+            }
+        }
+
+        .outsec {
+            margin-top: 60px;
+        }
+    }
+}
