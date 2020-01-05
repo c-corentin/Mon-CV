@@ -179,7 +179,7 @@ body main .outsec {
             flex-flow: row;
   }
   main article .leftbox {
-    width: 270px;
+    width: 270px !important;
     padding: auto auto;
   }
   main article .leftbox .rightbox {
