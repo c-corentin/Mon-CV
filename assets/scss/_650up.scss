@@ -1,0 +1,27 @@
+main {
+
+    max-width: 950px;
+    margin: auto;
+
+        #about {
+            display: flex;
+            flex-flow: row;
+        }
+
+        article {
+
+            display: flex;
+            flex-flow: row;
+
+            .leftbox {
+                width: 270px;
+                padding: auto auto;
+
+                .rightbox {
+                    margin: 0 auto;
+                    padding: 15px;
+                    text-align: left;
+                }
+            }
+        }
+}
