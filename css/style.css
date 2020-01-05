@@ -1,0 +1,49 @@
+#bgimage {
+  background-image: url(images/bg-drone1.jpg);
+  max-height: 500px;
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px 0;
+  padding-top: 100px;
+}
+
+#bgimage img {
+  border-radius: 50%;
+  border: 1px solid #838383;
+  width: 200px;
+  height: 200px;
+  -webkit-box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+}
+
+#colorfilter {
+  background: rgba(255, 255, 255, 0.4);
+  padding: 30px 40px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 460px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+#colorfilter h1 {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+#colorfilter p {
+  text-transform: uppercase;
+  margin-top: -10px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
