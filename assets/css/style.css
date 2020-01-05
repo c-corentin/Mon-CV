@@ -6,7 +6,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 10px 0;
+  padding: 10px 5px;
   padding-top: 100px;
 }
 
@@ -19,7 +19,7 @@
           box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
 }
 
-#colorfilter {
+#bgimage #colorfilter {
   background: rgba(255, 255, 255, 0.4);
   padding: 30px 40px;
   border-radius: 10px;
@@ -31,12 +31,12 @@
   width: fit-content;
 }
 
-#colorfilter h1 {
+#bgimage #colorfilter h1 {
   font-weight: 700;
   font-size: 50px;
 }
 
-#colorfilter p {
+#bgimage #colorfilter p {
   text-transform: uppercase;
   margin-top: -10px;
   font-weight: 600;
