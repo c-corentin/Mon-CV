@@ -3,25 +3,25 @@ main {
     max-width: 950px;
     margin: auto;
 
-        #about {
-            display: flex;
-            flex-flow: row;
-        }
+    #about {
+        display: flex;
+        flex-flow: row;
+    }
 
-        article {
+    article {
 
-            display: flex;
-            flex-flow: row;
+        display: flex;
+        flex-flow: row;
 
-            .leftbox {
-                width: 270px !important;
-                padding: auto auto;
+        .leftbox {
+            width: 270px !important;
+            padding: auto auto;
 
-                .rightbox {
-                    margin: 0 auto;
-                    padding: 15px;
-                    text-align: left;
-                }
+            .rightbox {
+                margin: 0 auto;
+                padding: 15px;
+                text-align: left;
             }
         }
+    }
 }
