@@ -1,5 +1,4 @@
 main {
-
     max-width: 950px;
     margin: auto;
 
@@ -8,20 +7,32 @@ main {
         flex-flow: row;
     }
 
-    article {
+    section {
 
-        display: flex;
-        flex-flow: row;
+        // display: flex;
+        // flex-flow: row;
+        article {
 
-        .leftbox {
-            width: 270px !important;
-            padding: auto auto;
+            display: flex;
+            flex-flow: row;
+             
+            
+
+            .leftbox {
+                width: 50vw;
+                flex-basis: 350px;
+                //max-width: 20em;
+                padding: 15px;
+                overflow: hidden;
+            }
 
             .rightbox {
                 margin: 0 auto;
                 padding: 15px;
                 text-align: left;
+                width: 600px;
             }
+
         }
     }
 }

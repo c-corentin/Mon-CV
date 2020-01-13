@@ -77,6 +77,8 @@ body {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   background-color: #fafafa;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
 }
 
 body main {
@@ -169,7 +171,7 @@ body main .outsec {
         -ms-flex-flow: row;
             flex-flow: row;
   }
-  main article {
+  main section article {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -178,14 +180,27 @@ body main .outsec {
         -ms-flex-flow: row;
             flex-flow: row;
   }
-  main article .leftbox {
-    width: 270px !important;
-    padding: auto auto;
+  main section article .leftbox {
+    width: 50vw;
+    -ms-flex-preferred-size: 350px;
+        flex-basis: 350px;
+    padding: 15px;
+    overflow: hidden;
   }
-  main article .leftbox .rightbox {
+  main section article .rightbox {
     margin: 0 auto;
     padding: 15px;
     text-align: left;
+    width: 600px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  main section article .rightbox {
+    width: 100px;
+  }
+  main section article .rightbox {
+    width: 850px;
   }
 }
 /*# sourceMappingURL=style.css.map */

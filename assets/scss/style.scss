@@ -10,6 +10,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     background-color: $body_bg_color;
+    box-sizing: content-box;
 
     main {
         padding: 20px;
@@ -89,4 +90,8 @@ body {
 
 @media only screen and (min-width : 650px) {
 @import '650up';
+}
+
+@media only screen and (min-width : 900px) {
+@import '900up';
 }
