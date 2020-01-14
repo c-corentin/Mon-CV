@@ -128,10 +128,8 @@ body main #skills article {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row;
-          flex-flow: row;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
   padding: 10px;
 }
 
