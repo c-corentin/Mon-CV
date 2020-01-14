@@ -54,6 +54,20 @@ body {
             font-size: x-large;
         }
 
+        #skills {
+
+            article {
+            display: flex;
+            flex-flow: row;
+            padding: 10px;
+
+            img {
+                height: 60px;
+                width: auto;
+                margin: 7px;
+            }
+        }
+    }
         article {
             text-align: $boxtxt_align;
             box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
