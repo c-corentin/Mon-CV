@@ -1,7 +1,7 @@
 #bgimage {
     background-image: url('../img/bg-drone1.jpg');
-    max-height: 500px;
-    height: 500px;
+    // max-height: 500px;
+    // height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -23,6 +23,7 @@
         border-radius: 10px;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 100px;
         max-width: 460px;
         width: fit-content;
 
