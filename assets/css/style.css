@@ -137,6 +137,9 @@ body main #skills article img {
   height: 60px;
   width: auto;
   margin: 7px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 body main article {
