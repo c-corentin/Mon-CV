@@ -1,5 +1,6 @@
 #bgimage {
   background-image: url("../img/bg-drone1.jpg");
+  background-attachment: fixed;
   background-position: fixed;
   background-repeat: no-repeat;
   background-size: cover;
