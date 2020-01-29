@@ -189,6 +189,9 @@ body main .outsec {
         -ms-flex-flow: row;
             flex-flow: row;
   }
+  main #about #aboutme p {
+    text-align: left;
+  }
   main section article {
     display: -webkit-box;
     display: -ms-flexbox;
