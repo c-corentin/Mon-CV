@@ -60,12 +60,15 @@ body {
             display: flex;
             flex-flow: wrap;
             padding: 10px;
+            text-align: center;
 
             img {
                 height: 60px;
                 width: auto;
                 margin: 7px;
-                display: flex;
+                display: flexbox;
+                margin-left: auto;
+                margin-right: auto;
             }
         }
     }
